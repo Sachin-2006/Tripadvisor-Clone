@@ -1,0 +1,40 @@
+body {
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Set font */
+}
+
+.container {
+    max-width: 1200px; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add some padding */
+    background-color: #f9f9f9; /* Background color */
+    border: 1px solid #ccc; /* Optional border */
+}
+
+#logo{
+    height:33px;
+    width:188px;
+
+}
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.middle-options > li {
+
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline;
+    font-weight: 600;
+}
+.right-options{
+    display: inline;
+}
+#signup-button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 1px;
+    border-radius: 20px;
+    display:inline;
+}
