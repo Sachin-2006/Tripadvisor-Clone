@@ -38,3 +38,36 @@ body {
     border-radius: 20px;
     display:inline;
 }
+.main{
+    margin-top: 100px;
+}
+#ques{
+    text-align: center;
+    font-weight: 900;
+
+    font-size: 75px;
+}
+.search-options{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+.search-options>button{
+    border: 0px;
+    background-color: white;
+    padding: 20px;
+}
+.search-options>button>a{
+    text-decoration: none;
+    color: black;
+}
+.search-names{
+    border-bottom: 1px;
+}
+.search-names:hover{
+    border-bottom:1px solid #1e2f45;
+    color: green;
+}
+button:first-child{
+    border-bottom:1px solid #1e2f45;
+}
