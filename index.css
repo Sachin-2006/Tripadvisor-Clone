@@ -98,6 +98,39 @@ justify-content: center;
 }
 
 #walkimage{
+    
     height: 500px;
     width:100%;
+}
+#img-container{
+    position: relative;
+}
+
+.inimg{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top: 20px;
+}
+
+.meal-trip{
+    display: flex;
+    position: relative;
+}
+.meal-options{
+    padding-right: 10px;
+    border-radius: 20px;
+}
+#meal-in-text{
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    font-size: 20px;;
+}
+.travel-creators{
+    display: flex;
+}
+
+.below-details{
+    text-align: center;
 }
