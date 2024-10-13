@@ -134,3 +134,33 @@ justify-content: center;
 .below-details{
     text-align: center;
 }
+
+.tour-coimbatore{
+    display: flex;
+}
+
+
+.in-cbe{
+    position: relative;
+    padding-left: 10px;
+}
+.points{
+    
+}
+#point{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #00aa6c;
+}
+
+#like-symbol{
+    text-align: center;
+    background-color: white;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border-radius: 50%;
+    
+}
